@@ -48,3 +48,26 @@ const cats = [
     img: "images/kitten8.jpeg"
   }
 ]
+
+
+
+const catRow = document.getElementById("catsRow")
+//loop over the array of data
+for(const cat of cats){
+  console.log(cat.name)
+  const card = "col">
+   <div class="col">
+  <img src="images/kitten1-thumb.jpeg" class="card-img-top" alt="placeholderkitten" data-bs-toggle="modal" data-bs-target="#exampleModal"> src="${cat.thumb}"
+  data-fullimg="${cat.imb}"
+      <div class="card-body">
+        <h5 class="card-title">${cat.name}/h5>
+        <p class="card-text">${cat.bio}</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="btn btn-light">Like</a>
+      </div>
+    </div>
+</div> 
+
+cats.Row.insertAdjacentHTML("beforeend", card)
+
+}
